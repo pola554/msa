@@ -33,14 +33,13 @@ Diabetes is a growing health threat worldwide. Early detection is crucial to pre
 
 ## 🔄 Workflow
 
-```mermaid
-graph TD;
-    A[Raw Data] --> B[Data Cleaning]
-    B --> C[Feature Engineering]
-    C --> D[EDA & Visualization]
-    D --> E[Model Training]
-    E --> F[Model Evaluation]
-    F --> G[Model Deployment (Flask API)]
+```graph TD;
+  A[Raw Data] --> B[Data Cleaning]
+  B --> C[Feature Engineering]
+  C --> D[EDA & Visualization]
+  D --> E[Model Training]
+  E --> F[Model Evaluation]
+  F --> G["Model Deployment (Flask API)"]
 ```
 
 ---

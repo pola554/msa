@@ -13,3 +13,30 @@ Diabetes is a growing health threat worldwide. Early detection is crucial to pre
 ## 📊 Dataset
 
 - *Source:* [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes)
+- *Rows:* 768 samples
+- *Features:* 8 health metrics + 1 binary target variable (0: No diabetes, 1: Diabetes)
+
+---
+
+## ⚙ Technologies Used
+
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Seaborn, Matplotlib
+- Flask
+- SMOTE (from imbalanced-learn)
+- Joblib
+
+---
+
+## 🔄 Workflow
+
+```mermaid
+graph TD;
+    A[Raw Data] --> B[Data Cleaning]
+    B --> C[Feature Engineering]
+    C --> D[EDA & Visualization]
+    D --> E[Model Training]
+    E --> F[Model Evaluation]
+    F --> G[Model Deployment (Flask API)]

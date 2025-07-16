@@ -33,17 +33,15 @@ Diabetes is a growing health threat worldwide. Early detection is crucial to pre
 
 ## 🔄 Workflow
 
-```graph TD;
-  A[Raw Data] --> B[Data Cleaning]
-  B --> C[Feature Engineering]
-  C --> D[EDA & Visualization]
-  D --> E[Model Training]
-  E --> F[Model Evaluation]
-  F --> G["Model Deployment (Flask API)"]
-```
+*Data Pipeline:*
 
----
-
+1. 📥 Raw Data  
+2. 🧼 Data Cleaning  
+3. 🧠 Feature Engineering  
+4. 📊 EDA & Visualization  
+5. 🤖 Model Training  
+6. 📏 Model Evaluation  
+7. 🚀 Model Deployment (Flask API)
 ## 🔬 Exploratory Data Analysis (EDA)
 
 - ✅ Histograms and boxplots for distributions

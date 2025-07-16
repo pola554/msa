@@ -41,9 +41,8 @@ st.write(input_df)
 # Prediction
 if st.button("Predict"):
     prediction = model.predict(input_df)[0]
-    pred_proba = model.predict_proba(input_df)[0][prediction]
 
     if prediction == 1:
-        st.error(f"Prediction: Patient is likely diabetic ({pred_proba:.2%} confidence)")
+        st.error("Prediction: Patient is likely diabetic.")
     else:
-        st.success(f"Prediction: Patient is not diabetic ({pred_proba:.2%} confidence)")
+        st.success("Prediction: Patient is not diabetic.")

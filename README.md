@@ -13,7 +13,7 @@ Diabetes is a growing health threat worldwide. Early detection is crucial to pre
 
 ## 📊 Dataset
 
-- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes)
+- **Source:** [UCI Machine Learning Repository]([https://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database))
 - **Rows:** 768 samples
 - **Features:** 8 health metrics + 1 binary target variable (0: No diabetes, 1: Diabetes)
 
